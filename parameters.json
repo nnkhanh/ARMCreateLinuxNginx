@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "simplevagranLinuxVM30aug"
+        },
+        "adminUsername": {
+            "value": "azureuser"
+        },
+        "authenticationType": {
+            "value": "sshPublicKey"
+        },
+        "adminPasswordOrKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDXLT8pM7nthISBJ6FCHBkSjZTpsEsRcyCAqAkdyiZSDIZ4mFyIobL7gAtPassL/3fVPGSeVNsSsdivkboOKFLV3XpUgoXNI0pz59Gj3P2uQIsdss1IjC9kz71jQaVad5tQ/gsUsDeP86Sq6ZidqFvbD43Dlk2+y7E5uH6wPCAUoqtnQ36IlQowavLo/ofdKttrq2omjolHQa1h4E3pyZYshqxO7ViywXBYypJnUv6PSzhrNLSSri408LbpsbXEQLLRi2tJWysx6dLCIK7XsxDPXyCnCrxZUJ8uosQsiQ6qpmKp99VrWAzMFRXjywaP1KR2TXb5cS+o57Ln3ufC/pfWGeYzVyOssd3FVNEPfxftVpu5iDr4bppUlJC6c661jTkoHFuZyfqiTFt2JtE6eQG3oNUX595szCQc7cERBsFyZ3b9nqgjsiwYK5qZysDaJaXVuAAjnat6FWdebDi41pHPq1vbGm4qIAIqk2jDR8QO8L6DZcw7Gg+A5PUMIEyhorU= generated-by-azure"
+        },
+        "dnsLabelPrefix": {
+            "value": "simplevagrantlinuxvm-yb6j3z73lgslk"
+        },
+        "ubuntuOSVersion": {
+            "value": "Ubuntu-2204"
+        },
+        "location": {
+            "value": "southeastasia"
+        },
+        "vmSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "virtualNetworkName": {
+            "value": "vNet"
+        },
+        "subnetName": {
+            "value": "Subnet"
+        },
+        "networkSecurityGroupName": {
+            "value": "SecGroupNet"
+        },
+        "securityType": {
+            "value": "TrustedLaunch"
+        },
+        "artifactsLocation": {
+            "value": "https://raw.githubusercontent.com/nnkhanh/publishRepo/main/installserver.sh"
+        }
+    }
+}
